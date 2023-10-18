@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { createUser, getUser, getUsers, updateUser, login } = require('../controllers/user.controller');
-const { validateMiddleware } = require('../middleware');
+// const { validateMiddleware } = require('../middleware');
 
 /** GET USERS
 METHOD:  GET
