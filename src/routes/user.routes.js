@@ -7,7 +7,7 @@ const { validateMiddleware } = require('../middleware');
 METHOD:  GET
 URL:     http://localhost:3000/api/user
 */
-router.get('/', validateMiddleware, getUsers);
+router.get('/', getUsers);
 
 /** GET USER
 METHOD:  GET
